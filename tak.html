@@ -1,0 +1,23 @@
+﻿<html>
+<body>
+<div style="color:purple;font-size:50px;">
+<script language="JavaScript">
+var liczba1=prompt("c=","");
+var liczba2=prompt("b=","");
+var c_mir=parseFloat(liczba1);
+var b_mir=parseFloat(liczba2);
+var a_mir=Math.sqrt(Math.pow(c_mir,2)-Math.pow(b_mir,2));
+document.write("c="+c_mir.toFixed(2)+" cm"+"<br>");
+document.write("b="+b_mir.toFixed(2)+" cm"+"<br>");
+document.write("a="+a_mir.toFixed(2)+" cm"+"<br>");
+var h1=a_mir
+var h3=(a_mir*b_mir)/c_mir;
+document.write("h3="+h3.toFixed(2)+" cm"+"<br>");
+var sin_alfa=b_mir/c_kow;
+document.write("sin="+sin_alfa.toFixed(3)+"<br>");
+var alfa=Math.asin(b_mir/c_mir)*(180/Math.PI);
+document.write("alfa="+alfa.toFixed(3)+"st"+"<br>");
+</script>
+</div>
+</body>
+</html><html>

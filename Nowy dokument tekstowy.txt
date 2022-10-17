@@ -1,0 +1,3 @@
+zadanie 13 a
+dany jest trojkat prostokatny.
+wczytaæ przeciwprostok¹tna C_miro
