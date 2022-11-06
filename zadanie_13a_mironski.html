@@ -1,0 +1,38 @@
+﻿<html>
+<body>
+<div style="color:purple;font-size:50px;">
+<script language="JavaScript">
+var liczba1=prompt("c=","");
+var liczba2=prompt("b=","");
+var c_mir=parseFloat(liczba1);
+var b_mir=parseFloat(liczba2);
+var a_mir=Math.sqrt(Math.pow(c_mir,2)-Math.pow(b_mir,2));
+document.write("c="+c_mir.toFixed(2)+" cm"+"<br>");
+document.write("b="+b_mir.toFixed(2)+" cm"+"<br>");
+document.write("a="+a_mir.toFixed(2)+" cm"+"<br>");
+var h1=a_mir;
+var h2=b_mir;
+var h3=(a_mir*b_mir)/c_mir;
+document.write("h1="+h1.toFixed(2)+" cm"+"<br>");
+document.write("h2="+h2.toFixed(2)+" cm"+"<br>");
+document.write("h3="+h3.toFixed(2)+" cm"+"<br>");
+var sin_alfa=a_mir/c_mir;
+var cos_alfa=b_mir/c_mir;
+var tangens_alfa=a_mir/b_mir
+var cotangens_alfa=b_mir/a_mir;
+document.write("sin alfa="+sin_alfa.toFixed(3)+"<br>");
+document.write("cos alfa="+cos_alfa.toFixed(3)+"<br>");
+document.write("tg alfa="+tangens_alfa.toFixed(3)+"<br>");
+document.write("ctg alfa="+cotangens_alfa.toFixed(3)+"<br>");
+var beta=Math.asin(b_mir/c_mir)*(180/Math.PI);
+var alfa=90-beta;
+document.write("alfa="+alfa.toFixed(3)+" st"+"<br>");
+document.write("beta="+beta.toFixed(3)+" st"+"<br>");
+var obwod=a_mir+b_mir+c_mir;
+document.write("obwod="+obwod.toFixed(2)+" cm"+"<br>");
+var pole=b_sci*a_sci/2;
+document.write("pole="+pole.toFixed(2)+" cm"+"<br>");
+</script>
+</div>
+</body>
+</html>

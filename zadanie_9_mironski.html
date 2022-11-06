@@ -1,0 +1,27 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+var dzien1=prompt("dzien1=","");
+var dzien2=prompt("dzien2=","");
+var godzina1=prompt("godzina1=","");
+var godzina2=prompt("godzina2=","");
+var ile_sekund_mir1;
+var ile_sekund_mir2;
+var ile_sekund_mir3;
+var D1_mir=parseFloat(dzien1);
+var D2_mir=parseFloat(dzien2);
+var G1_mir=parseFloat(godzina1);
+var G2_mir=parseFloat(godzina2);
+ile_sekund_mir1=(D1_mir-D2_mir)*24*3600;
+ile_sekund_mir2=(G1_mir-G2_mir)*3600;
+ile_sekund_mir3=(ile_sekund_mir1+ile_sekund_mir2);
+document.write("sekundy="+ile_sekund_mir3+"s"+"<br>");
+document.write("dz1="+D1_mir+"<br>");
+document.write("dz2="+D2_mir+"<br>");
+document.write("godz1="+G1_mir+"<br>");
+document.write("godz2="+G2_mir+"<br>");
+</script>
+</div>
+</body>
+</html>
