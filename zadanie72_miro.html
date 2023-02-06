@@ -1,0 +1,34 @@
+﻿﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Paweł Miroński 3F grupa 2</title>
+<script language="JavaScript">
+var liczba1=prompt("podaj szerokosc b=","");
+var liczba2=prompt("podaj wysokosc a=","");
+var a_mir=parseFloat(liczba2);
+var b_mir=parseFloat(liczba1);
+for ( var i=1; i<=b_mir; i++)
+{
+document.write("*");
+}
+document.write("<br>&nbsp");
+for ( var i=1; i<=a_mir-2; i++)
+{
+var wiersz_mir="*";
+for ( var j=1; j<=b_mir-2; j++)
+{
+wiersz_mir=wiersz_mir+"&nbsp&nbsp";
+}
+wiersz_mir=wiersz_mir+"*";
+document.write(wiersz_mir+"<br>&nbsp");
+}
+for ( var i=1; i<=b_mir; i++)
+{
+document.write("*");
+}
+</script>
+</head>
+<body>
+</body>
+</html>

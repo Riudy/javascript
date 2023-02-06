@@ -4,20 +4,28 @@
 <title>Paweł Miroński 3F grupa 2</title>
 </head>
 <body>
-<div style="color:red;font-size:50px;">
+<p style="color:green;">Menu</p>
+<p style="color:red;">1-czerwony</p>
+<p style="color:blue;">2-niebieski</p>
+<button type="submit" value="przycisk" onclick="przycisk()">Oblicz</button><br>
 <script language="JavaScript">
-var x=prompt("podaj liczbę x=","");
+function przycisk()
+{
+var x=prompt("Podaj Kolor");
 var a=parseFloat(x);
-document.write("czytana liczba x="+a+"<br>");
-if(a>0)
-{document.write("czytana liczba jest większa od 0"+"<br>");}
-if(a==0)
-{document.write("czytana liczba jest równa 0"+"<br>");}
-if(a<0)
-{document.write("czytana liczba jest mniejsza od 0"+"<br>");}
-document.write("<font color=silver size=4>wpisałes kolor czerwony</font>"+"<br>");
-document.write ("<p style=\"font-size: 40.px; color: black;\"><br>Dziki melanż<br></p>");
-</script>
+if(a==1||x.toLowerCase()==="czerwony")
+{
+document.write("<font color=red size=7>wpisałes kolor czerwony</font>"+"<br>");
+}
+else if(a==2||x.toLowerCase()==="niebieski")
+{
+document.write("<font color=blue size=1>wpisałes kolor niebieski</font>"+"<br>");
+}
+else{
+document.write("źle wpisano"+"<br>");
+}
+}
+    </script>
 </div>
 </body>
 </html>
