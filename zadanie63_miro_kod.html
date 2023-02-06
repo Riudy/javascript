@@ -1,0 +1,33 @@
+<textarea rows="80" cols="300">
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Paweł Miroński 3F grupa 2</title>
+</head>
+<body>
+<p style="color:green;">Menu</p>
+<p style="color:red;">1-czerwony</p>
+<p style="color:blue;">2-niebieski</p>
+<button type="submit" value="przycisk" onclick="przycisk()">Oblicz</button><br>
+<script language="JavaScript">
+function przycisk()
+{
+var x=prompt("Podaj Kolor");
+var a=parseFloat(x);
+if(a==1||x.toLowerCase()==="czerwony")
+{
+document.write("<font color=red size=7>wpisałes kolor czerwony</font>"+"<br>");
+}
+else if(a==2||x.toLowerCase()==="niebieski")
+{
+document.write("<font color=blue size=1>wpisałes kolor niebieski</font>"+"<br>");
+}
+else{
+document.write("źle wpisano"+"<br>");
+}
+}
+    </script>
+</div>
+</body>
+</html>
+</textarea>
