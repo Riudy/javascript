@@ -1,0 +1,11 @@
+ol { 
+width: 275px; 
+height: 225px;
+}
+table, th, td {
+ font: 15px Arial, sans-serif;
+background: lightblue;
+text-align: center;
+border: 2px solid navy; 
+border-radius: 10px 10px 10px 10px; 
+}
